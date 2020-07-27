@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('media/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 15% 0 0;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.flexbox-item {
+    color: rgb(244, 250, 248);
+    padding: 3px;
+    background-color: rgba(19, 51, 23, 0.3);
+    border: 2px solid rgb(1, 39, 6);
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+}
