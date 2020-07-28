@@ -9,16 +9,29 @@
 </head>
 <body>
     <div class="flexbox-container">
-        <div class="flexbox-item">A</div>
-        <div class="flexbox-item">S</div>
-        <div class="flexbox-item">D</div>
-        <div class="flexbox-item">F</div>
-        <div class="flexbox-item">G</div>
-        <div class="flexbox-item">H</div>
-        <div class="flexbox-item">J</div>
-        <div class="flexbox-item">K</div>
-        <div class="flexbox-item">L</div>
+        <div data-key="65" class="flexbox-item">A</div>
+        <div data-key="83" class="flexbox-item">S</div>
+        <div data-key="68" class="flexbox-item">D</div>
+        <div data-key="70" class="flexbox-item">F</div>
+        <div data-key="71" class="flexbox-item">G</div>
+        <div data-key="72" class="flexbox-item">H</div>
+        <div data-key="74" class="flexbox-item">J</div>
+        <div data-key="75" class="flexbox-item">K</div>
+        <div data-key="76" class="flexbox-item">L</div>
     </div>
+    
+    <div class="keyDisplay keyDisplay-before">Press any of the above keys on your keyboard for sound!</div>
+
+    <audio data-key="65" src="/media/boom.wav"></audio>
+    <audio data-key="83" src="media/clap.wav"></audio>
+    <audio data-key="68" src="media/hihat.wav"></audio>
+    <audio data-key="70" src="media/kick.wav"></audio>
+    <audio data-key="71" src="media/openhat.wav"></audio>
+    <audio data-key="72" src="media/ride.wav"></audio>
+    <audio data-key="74" src="media/snare.wav"></audio>
+    <audio data-key="75" src="media/tink.wav"></audio>
+    <audio data-key="76" src="media/tom.wav"></audio>
+    
     <script src="script.js"></script>
 </body>
 </html>

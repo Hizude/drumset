@@ -37,3 +37,18 @@ body {
     font-size: 50px;
     text-align: center;
 }
+
+.keyDisplay-before {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.keyDisplay-after {
+    font-size: 5rem;
+    color: rgb(241, 251, 255);
+    text-transform: uppercase;
+    width: 50px;
+    margin: 30px auto 0;
+}
